@@ -6,15 +6,7 @@
 body {
   overflow: auto;
   font-family: sans-serif;
-  background: rgba(0, 0, 0, 0.2);
-}
-#webGLApp {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+  background: rgba(190, 175, 165, 1);
 }
 
 .hero {
@@ -29,16 +21,16 @@ body {
   text-align: center;
   pointer-events: auto;
   background: rgba(255, 255, 255, 0.1);
-  border: 3px solid rgba(0, 0, 0, 0.5);
+  border: 7px solid rgba(245, 170, 140, 0.5);
 }
-.hero-box-1 {
+/*.hero-box-1 {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   min-height: 100%;
   background: rgba(205, 205, 255, 0.1);
 border: 3px solid rgba(255, 255, 255, 0.3);
-/*border-radius: 42px;*/
+border-radius: 42px;
 }
 .hero-box-2 {
   box-sizing: border-box;
@@ -46,7 +38,7 @@ width: 100%;
 height: 100%;
 min-height: 100%;
 border: 3px solid rgba(0, 0, 0, 0.3);
-/*border-radius: 37px;*/
+border-radius: 37px;
 }
 .hero-box-3 {
   box-sizing: border-box;
@@ -54,7 +46,7 @@ border: 3px solid rgba(0, 0, 0, 0.3);
   height: 100%;
   min-height: 100%;
   border: 3px solid rgba(255, 255, 255, 0.3);
-  /*border-radius: 33px;*/
+  border-radius: 33px;
 }
 .hero-box-4 {
   box-sizing: border-box;
@@ -63,14 +55,14 @@ border: 3px solid rgba(0, 0, 0, 0.3);
   min-height: 100%;
   border: 3px solid 
   rgba(0, 0, 0, 0.2);
-  /*border-radius: 25px;*/
-}
+  border-radius: 25px;
+}*/
 .hero-box-5 {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   min-height: 100%;
-  border: 3px solid rgba(255, 255, 255, 0.2);
+  /*border: 3px solid rgba(255, 255, 255, 0.2);*/
   color: rgb(70, 70, 90);
   padding: 2rem;
 }
@@ -103,7 +95,7 @@ border: 3px solid rgba(0, 0, 0, 0.3);
  font-weight: 500;
  font-size: 3rem;
  padding-bottom: 1rem;
- border-bottom: 1px solid rgb(120, 120, 130);
+ border-bottom: 1px solid rgb(50, 50, 60);
 }
 
 .articles .article p {
@@ -128,11 +120,15 @@ border: 3px solid rgba(0, 0, 0, 0.3);
 
 .color-controls {
   position: fixed;
-  top: 2rem;
-  right: 2rem;
+  top: 0;
+  right: 0;
+  width: 100vw;
   z-index: 10;
   display: flex;
+  flex-flow: right;
   gap: 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2.5rem;
   pointer-events: auto;
 }
 
@@ -142,7 +138,7 @@ border: 3px solid rgba(0, 0, 0, 0.3);
   padding: 0.75rem 1.25rem;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.5);
-  color: rgb(120, 120, 130);
+  color: rgb(50, 50, 60);
   font-family: "Syne", sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
@@ -175,7 +171,7 @@ border: 3px solid rgba(0, 0, 0, 0.3);
   bottom: 3rem;
   left: 4rem;
   z-index: 10;
-  color: rgb(120, 120, 130);
+  color: rgb(50, 50, 60);
   font-family: "Syne", sans-serif;
   font-size: 4rem;
   font-weight: 500;
@@ -185,7 +181,7 @@ border: 3px solid rgba(0, 0, 0, 0.3);
   pointer-events: auto;
 }
 .footer .footer-name {
-  color: rgb(120, 120, 130);
+  color: rgb(50, 50, 60);
   letter-spacing: 0.2px;
   text-decoration: underline;
   text-underline-offset: 16px;
@@ -209,19 +205,19 @@ border: 3px solid rgba(0, 0, 0, 0.3);
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 1px solid rgba(120, 120, 130, 0.4);
+  border: 1px solid rgba(50, 50, 60, 0.4);
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   font-family: "Syne", sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  color: rgb(120, 120, 130);
+  color: rgb(50, 50, 60);
   text-decoration: none;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: middle; 
   white-space: nowrap;
   line-height: 1;
   

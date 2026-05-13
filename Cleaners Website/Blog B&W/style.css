@@ -37,28 +37,28 @@ body {
   height: 100%;
   min-height: 100%;
   background: rgba(205, 205, 255, 0.1);
-border: 3px solid rgba(255, 255, 255, 0.3);
+border: 2px solid rgba(255, 255, 255, 0.3);
 }
 .hero-box-2 {
   box-sizing: border-box;
 width: 100%;
 height: 100%;
 min-height: 100%;
-border: 3px solid rgba(0, 0, 0, 0.3);
+border: 2px solid rgba(0, 0, 0, 0.3);
 }
 .hero-box-3 {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   min-height: 100%;
-  border: 3px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.3);
 }
 .hero-box-4 {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   min-height: 100%;
-  border: 3px solid 
+  border: 2px solid 
   rgba(0, 0, 0, 0.2);
 }
 .hero-box-5 {
@@ -66,7 +66,7 @@ border: 3px solid rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
   min-height: 100%;
-  border: 3px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   color: rgb(70, 70, 90);
   padding: 2rem;
 }
@@ -93,7 +93,6 @@ border: 3px solid rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  
   border-bottom: 2px solid rgb(120, 120, 130);
 }
 
@@ -106,6 +105,7 @@ border: 3px solid rgba(0, 0, 0, 0.3);
 
 .articles .article p {
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* Show all options in a grid for comparison */
@@ -139,7 +139,7 @@ border: 3px solid rgba(0, 0, 0, 0.3);
   height: 48px;
   padding: 0.75rem 1.25rem;
   background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border:2px solid rgba(0, 0, 0, 0.5);
   color: rgb(120, 120, 130);
   font-family: "Syne", sans-serif;
   font-size: 1.1rem;
@@ -207,7 +207,7 @@ border: 3px solid rgba(0, 0, 0, 0.3);
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 1px solid rgba(120, 120, 130, 0.4);
+  border: 3px solid rgba(120, 120, 130, 0.4);
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   font-family: "Syne", sans-serif;
