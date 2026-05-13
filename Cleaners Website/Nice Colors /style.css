@@ -13,16 +13,16 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  height: 75vh;
+  height: 80vh;
   width: 80vw;
-  min-height: 75vh;
+  min-height: 80%;
   min-width: 80%;
   transform: translate(-50%, -50%);
   z-index: 10;
   text-align: center;
   pointer-events: auto;
-  background: rgba(255, 255, 255, 0.8);
-  border: 7px solid rgba(225, 170, 140, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border: 7px solid rgba(245, 170, 140, 0.5);
 }
 /*.hero-box-1 {
   box-sizing: border-box;
@@ -86,7 +86,6 @@ border-radius: 37px;
 .articles .article {
   scroll-snap-align: start;
   min-height: 100%;
-  height: 100%;
   padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
@@ -100,40 +99,8 @@ border-radius: 37px;
  border-bottom: 1px solid rgb(50, 50, 60);
 }
 
-.articles .article .img-box {
-  height: 100%;
-  width: 100%;
-}
-
-.price-tag {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.price-tag .price {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #2a2a2a;
-  letter-spacing: 0.5px;
-  background: rgba(255, 255, 255, 0.15);
-  padding: 18px 26px;
-}
-
-.price-tag .detail-arrow {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-}
-
-.articles .article .img-box img {
-  height: 100%;
-  width: 100%;
+.articles .article p {
+  padding-top: 2rem;
 }
 
 /* Show all options in a grid for comparison */
@@ -160,24 +127,13 @@ border-radius: 37px;
   z-index: 10;
   display: flex;
   flex-flow: right;
-  align-items: center;
   gap: 1rem;
   background: rgba(255, 255, 255, 0.7);
   padding: 2.5rem;
   pointer-events: auto;
 }
 
-#home-btn {
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  margin-right: 3rem;
-  font-size: 2.5rem;
-  letter-spacing: -7px;
-  padding: 0.75rem;
-}
-
-.color-btn, .home-btn{
+.color-btn {
   min-width: 48px;
   height: 48px;
   padding: 0.75rem 1.25rem;
@@ -209,15 +165,12 @@ border-radius: 37px;
 
 .footer {
   position: fixed;
-  width: 100vw;
-  padding: 1.35rem 1.75rem;
+  width: 85vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  background: rgba(255,255,255,0.8);
-  bottom: 0;
-  left: 0;
+  bottom: 3rem;
+  left: 4rem;
   z-index: 10;
   color: rgb(50, 50, 60);
   font-family: "Syne", sans-serif;
@@ -242,6 +195,7 @@ border-radius: 37px;
 .socials {
   display: flex;
   gap: 2rem;
+  margin-top: 1.5rem;
 }
 
 .social {
@@ -253,7 +207,7 @@ border-radius: 37px;
   justify-content: center;
   border-radius: 50%;
   border: 1px solid rgba(50, 50, 60, 0.4);
-  background: rgba(225, 170, 140, 0.5);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   font-family: "Syne", sans-serif;
   font-size: 1rem;
